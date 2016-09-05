@@ -1,5 +1,5 @@
 
-# check_smartvalues
+# [check_smartvalues](https://git.netways.org/plugins/check_smartvalues) 
 
 You want to monitor your HDD/SSD(s), her is a solution to do it, try it out.
  
@@ -154,3 +154,5 @@ Date:   Tue Aug 11 11:46:31 2015 +0200
 
     [nms] initial release/commit
 </code></pre>
+
+(Original project at [https://git.netways.org/plugins/check_smartvalues](https://git.netways.org/plugins/check_smartvalues))
