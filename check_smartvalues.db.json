@@ -239,6 +239,50 @@
 				{ "241" : "NV", "CR" : 0, "Name" : "Total_LBAs_Written" }
 			]
 		},
+		"Hitachi HDT721010SLA360": {
+			"Device" : ["Hitachi HDT721010SLA360"],
+			"ID#": [
+				{ "1" : "NV", "CR" : 0, "Name" : "Raw_Read_Error_Rate" },
+				{ "2" : "NV", "CR" : 0, "Name" : "Throughput_Performance" },
+				{ "3" : "NV", "CR" : 0, "Name" : "Spin_Up_Time" },
+				{ "4" : "NV", "CR" : 0, "Name" : "Start_Stop_Count" },
+				{ "5" : "NV", "CR" : 0, "Name" : "Reallocated_Sector_Ct" },
+				{ "7" : "NV", "CR" : 0, "Name" : "Seek_Error_Rate" },
+				{ "8" : "NV", "CR" : 0, "Name" : "Seek_Time_Performance" },
+				{ "9" : "NV", "CR" : 0, "Name" : "Power_On_Hours" },
+				{ "10" : "NV", "CR" : 0, "Name" : "Spin_Retry_Count" },
+				{ "12" : "NV", "CR" : 0, "Name" : "Power_Cycle_Count" },
+				{ "192" : "NV", "CR" : 0, "Name" : "Power-Off_Retract_Count" },
+				{ "193" : "NV", "CR" : 0, "Name" : "Load_Cycle_Count" },
+				{ "194" : "RV", "CR" : 0, "Name" : "Temperature_Celsius" },
+				{ "196" : "NV", "CR" : 0, "Name" : "Reallocated_Event_Count" },
+				{ "197" : "NV", "CR" : 0, "Name" : "Current_Pending_Sector" },
+				{ "198" : "NV", "CR" : 0, "Name" : "Offline_Uncorrectable" },
+				{ "199" : "NV", "CR" : 0, "Name" : "UDMA_CRC_Error_Count" }
+			]
+		},
+		"WDC WD1003FBYX-18Y7B0": {
+			"Device" : ["WDC WD1003FBYX-18Y7B0"],
+			"ID#": [
+				{ "1" : "NV", "CR" : 0, "Name" : "Raw_Read_Error_Rate" },
+				{ "3" : "NV", "CR" : 0, "Name" : "Spin_Up_Time" },
+				{ "4" : "NV", "CR" : 0, "Name" : "Start_Stop_Count" },
+				{ "5" : "NV", "CR" : 0, "Name" : "Reallocated_Sector_Ct" },
+				{ "7" : "NV", "CR" : 0, "Name" : "Seek_Error_Rate" },
+				{ "9" : "NV", "CR" : 0, "Name" : "Power_On_Hours" },
+				{ "10" : "NV", "CR" : 0, "Name" : "Spin_Retry_Count" },
+				{ "11" : "NV", "CR" : 0, "Name" : "Calibration_Retry_Count" },
+				{ "12" : "NV", "CR" : 0, "Name" : "Power_Cycle_Count" },
+				{ "192" : "NV", "CR" : 0, "Name" : "Power-Off_Retract_Count" },
+				{ "193" : "NV", "CR" : 0, "Name" : "Load_Cycle_Count" },
+				{ "194" : "RV", "CR" : 0, "Name" : "Temperature_Celsius" },
+				{ "196" : "NV", "CR" : 0, "Name" : "Reallocated_Event_Count" },
+				{ "197" : "NV", "CR" : 0, "Name" : "Current_Pending_Sector" },
+				{ "198" : "NV", "CR" : 0, "Name" : "Offline_Uncorrectable" },
+				{ "199" : "NV", "CR" : 0, "Name" : "UDMA_CRC_Error_Count" },
+				{ "200" : "NV", "CR" : 0, "Name" : "Multi_Zone_Error_Rate" }
+			]
+		},
 		"Samsung Enterprise (PM863,PM853T)": {
 			"Device" : ["SAMSUNG MZ7LM240HCGR-00003", "SAMSUNG MZ7GE480HMHP-00003", "SAMSUNG MZ7GE240HMGR-00003"],
 			"ID#": [
