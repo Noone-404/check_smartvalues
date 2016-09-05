@@ -218,6 +218,10 @@ foreach my $dev ( @device ) { # once per device
             	foreach ( @result ) {
                 	$_->{Controller}    = ( $tracked_dev->{Controller} )	? $tracked_dev->{Controller}	: "unavailable";
                 	$_->{DeviceID}      = ( $tracked_dev->{DeviceID} )		? $tracked_dev->{DeviceID}		: "unavailable";
+                	# only the lowest byte is used to store the temperature in the raw value
+                	if ( $_->{ID} == 194 or $_->{ID} == 190 ) {
+                	    $_->{RawValue} &= 0xFF;
+                	}
                 	printEntry( $_ ) if( $verbose > 2 );
                 	validateResult( $dev, $_ );
             	}
